@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { sequelize } = require('./models/domain-models/');
 const productRoutes = require('./routes/domain-routes/productRoute');
-console.log("hey");
 const userRoute = require('./routes/auth-routes/userRoute');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 const cors = require('cors');
@@ -41,8 +40,8 @@ const mongoOptions = {
     useUnifiedTopology: true
 };
 const mongoUri = process.env.MONGO_URI;
-console.log(mongoUri);
-mongoose.connect(mongoUri)
+
+mongoose.connect(mongoUri, mongoOptions)
     .then(() => {
         console.log('Database connected successfully');
     })

@@ -18,7 +18,6 @@ body {
     color: #333;
     display: flex;
     justify-content: center;
-    /*align-items: flex-start; !* Aligns content higher than the center *!*/
     height: 100%; /* Ensures that the body takes up the full height */
     margin: 0;    /* Removes default margin */
     align-items: center; /* Centers content vertically */
@@ -143,90 +142,6 @@ p {
     text-align: center;
 }
 
-/* Form Containers */
-/*.login-container,*/
-/*.register-container {*/
-/*    background-color: rgba(255, 255, 255, 50%);  !* White background with 50% opacity *!*/
-/*    text-align: center;*/
-/*    width: 100%;*/
-/*    max-width: 1500px;*/
-/*    margin: 50px auto;*/
-/*    padding: 50px;*/
-/*    border-radius: 8px;*/
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
-/*}*/
-
-/*!* Profile Container *!*/
-/*.profile-container {*/
-/*    background-color: rgba(184, 184, 184, 0.3);*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    padding: 50px;*/
-/*    border-radius: 8px;*/
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
-/*    max-width: 1500px;*/
-/*    margin: 50px auto;*/
-/*}*/
-
-/*.profile-footer {*/
-/*    width: 100%;*/
-/*    margin-top: 20px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*!* Transaction Page *!*/
-/*.transaction-page {*/
-/*    background-color: rgba(220, 220, 220, 0.82);*/
-/*    max-width: 1000px;*/
-/*    margin: 0 auto;*/
-/*    padding: 30px;*/
-/*    border-radius: 8px;*/
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
-/*    opacity: 80%;*/
-/*    width: 100%;*/
-/*    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);*/
-/*}*/
-
-/*!* Transaction Form *!*/
-/*.transaction-form {*/
-/*    margin-bottom: 30px;*/
-/*    padding: 20px;*/
-/*    background-color: transparent;*/
-/*    border-radius: 8px;*/
-/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
-/*}*/
-
-/*!* Table Styling *!*/
-/*.transaction-table {*/
-/*    width: 100%;*/
-/*    border-collapse: collapse;*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.transaction-table th,*/
-/*.transaction-table td {*/
-/*    padding: 12px;*/
-/*    text-align: left;*/
-/*    border: 1px solid #888888;*/
-/*}*/
-
-/*.transaction-table th {*/
-/*    background-color: transparent;*/
-/*    font-weight: bold;*/
-/*    color: #555;*/
-
-/*}*/
-
-/*.transaction-table tr:nth-child(even) {*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*.transaction-table tr:hover {*/
-/*    background-color: transparent;*/
-/*}*/
-
 /***** Header pannel ******/
 
 .header-panel {
@@ -276,16 +191,6 @@ body {
     font-size: 1.8rem; /* Text size for the bank name */
     font-weight: bold;
 }
-
-/*.logo-container-header{*/
-/*    width: 50px; !* Set width for the logo image *!*/
-/*    height: auto; !* Maintain aspect ratio *!*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    margin-right: 10px; !* Space between the logo image and text *!*/
-
-/*}*/
 
 .logo-header{
     width: 50px; /* Set width for the logo image */
@@ -365,80 +270,6 @@ body {
     /*color: transparent;*/
 
 }
-/**********************/
-
-
-/****** SideBar ********/
-/* Sidebar Styles */
-/*.sidebar {*/
-/*    width: 250px;*/
-/*    height: 100vh;*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    background-color: transparent;*/
-/*    color: white;*/
-/*    padding: 20px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.sidebar .logo {*/
-/*    font-size: 1.5rem;*/
-/*    font-weight: bold;*/
-/*    text-align: center;*/
-/*    margin-bottom: 30px; !* Add some space between the logo and the nav list *!*/
-/*}*/
-
-/*.sidebar .nav-list {*/
-/*    list-style-type: none;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
-/*.sidebar .nav-item {*/
-/*    margin-bottom: 20px;*/
-/*}*/
-
-/*.sidebar .nav-link {*/
-/*    text-decoration: none;*/
-/*    color: white;*/
-/*    font-size: 1.2rem;*/
-/*    font-weight: 500;*/
-/*    transition: color 0.3s ease;*/
-/*}*/
-
-/*.sidebar .nav-link:hover {*/
-/*    color: #3498db;*/
-/*}*/
-
-/*.sidebar .nav-link:active {*/
-/*    color: #2980b9;*/
-/*}*/
-
-/*!* Footer Section *!*/
-/*.sidebar .sidebar-footer {*/
-/*    text-align: center;*/
-/*    margin-top: auto; !* Push footer content to the bottom *!*/
-/*}*/
-
-/*.sidebar .button {*/
-/*    background-color: #e74c3c;*/
-/*    color: white;*/
-/*    padding: 10px 20px;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    width: 100%; !* Make the button take up full width *!*/
-/*    transition: background-color 0.3s ease;*/
-/*}*/
-
-/*.sidebar .button:hover {*/
-/*    background-color: #c0392b;*/
-/*}*/
 
 /* Content Area Styles */
 .content {

@@ -1,6 +1,3 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const { Op } = require('sequelize');
 const { User } = require("../../models/auth-models");
 const { Product } = require("../../models/domain-models");
 const MongoProduct = require("../../models/mongo-models/productShcema");
